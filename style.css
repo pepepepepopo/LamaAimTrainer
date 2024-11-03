@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+}
+
+#game-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#score {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#bloons-container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #00796b;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.bloon {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background-color: #ff4081;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#throw-dart {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
